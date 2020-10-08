@@ -145,6 +145,4 @@ COPY --chown=scanner-cli:scanner-cli bin /usr/bin/
 
 WORKDIR ${SRC_PATH}
 
-ENTRYPOINT ["/bin/bash"]
-
-CMD ["sonar-scanner"]
+CMD ["/bin/bash"]
